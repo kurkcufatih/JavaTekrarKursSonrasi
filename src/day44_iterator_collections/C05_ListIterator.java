@@ -35,7 +35,7 @@ public class C05_ListIterator {
 			
 		}
 		
-		System.out.println(liste);
+		System.out.println(liste); //[AliX, VeliX, AyseX, FatmaX, EmrahX]
 
 	}
 

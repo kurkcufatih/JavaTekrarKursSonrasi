@@ -46,6 +46,9 @@ public class C04_Immutable {
         sb.append(".");
         System.out.println(sb);
 
+        for (int i = sb.length()-1; i >0 ; i--) {
+        }
+        System.out.println(sb);
 
         //Immutable class'lar degismiyor.
         //Mutable'lar degisiyor.

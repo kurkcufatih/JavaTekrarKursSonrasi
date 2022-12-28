@@ -44,7 +44,7 @@ public class C02 {
 		
 		System.out.println("obje3'den sonra obje1'in y :" + obje1.y);//40
 		System.out.println("obje3'den sonra obje2'in y :" + obje2.y);//40
-		System.out.println("obje3'den sonra obje3'in y :" + obje3.y);//240
+		System.out.println("obje3'den sonra obje3'in y :" + obje3.y);//40
 		
 		
 

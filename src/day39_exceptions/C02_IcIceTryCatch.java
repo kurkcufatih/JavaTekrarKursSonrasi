@@ -17,5 +17,13 @@ public class C02_IcIceTryCatch {
         } catch (IOException e) {
             System.out.println("Dosya bulunamadi");
         }
+
+        //sout sonucu
+
+        /*
+        Java'da 39. gundeyiz
+        Biz Java'yi cok sevdik
+        Umarim o da bizi sevmistir.
+         */
     }
 }

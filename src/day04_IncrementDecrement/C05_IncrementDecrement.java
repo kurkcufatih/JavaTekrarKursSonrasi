@@ -3,7 +3,9 @@ package day04_IncrementDecrement;
 public class C05_IncrementDecrement {
 
 	public static void main(String[] args) {
-		
+
+		//==========INCREMENT and DECREMENT============
+
 		// atama islemi olursa sayinin degeri kalici olarak degisir
 		// atama islemi olmadan yapilan toplama, cikarma vs islemler sadece o satirda yapilir
 		// sayinin degerini kalici olarak degistirmez
@@ -15,8 +17,7 @@ public class C05_IncrementDecrement {
 		// dolayisiyla sayi1'in degeri kalici olarak degisiyor
 		
 		System.out.println(sayi1);//15
-		
-		
+
 		System.out.println(sayi1+12); // 27
 		
 		System.out.println(sayi1);// 15
@@ -26,6 +27,10 @@ public class C05_IncrementDecrement {
 		// dolayisyla deger kalici olarak degisir
 		
 		System.out.println(sayi1); //16
+		sayi1--;
+		System.out.println(sayi1); //15
+		sayi1-=5;
+		System.out.println(sayi1); //10
 
 	}
 

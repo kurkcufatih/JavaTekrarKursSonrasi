@@ -1,4 +1,4 @@
-package day12_stringManipulations;
+package day12_StringManipulations;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class C02_IndexOf {
 		//		kelimenin cumledeki kullanimina bakarak asagidaki 3 cumleden uygun olani yazdirin
 		//    	- Girilen kelime cumlede kullanilmamis.
 		//		- Girilen kelime cumlede 1 kere kullanilmis.
-		//		- Girilen kelime cumlede 1’den fazla kullanilmis.
+		//		- Girilen kelime cumlede 1ï¿½den fazla kullanilmis.
 		
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Lutfen bir cumle giriniz");
@@ -28,7 +28,7 @@ public class C02_IndexOf {
 			System.out.println("Girilen kelime cumlede 1 kere kullanilmis.");
 			
 		}else {
-			System.out.println("Girilen kelime cumlede 1’den fazla kullanilmis.");
+			System.out.println("Girilen kelime cumlede 1ï¿½den fazla kullanilmis.");
 		}
 
 		scan.close();

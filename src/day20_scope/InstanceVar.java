@@ -5,17 +5,16 @@ public class InstanceVar {
 	int notMat=50;
 	int notFen;
 	// instance variable'larin scope'unda main method yoktur
-	
 
 	public static void main(String[] args) {
 		
-		// System.out.println(notMat); // main method static oldugu icin static olmayan variable'lar
-									// main method'da direk kullanilamaz veya goruntulenemez
+		// System.out.println(notMat);
+		// main method static oldugu icin static olmayan variable'lar
+		// main method'da direk kullanilamaz veya goruntulenemez
 		
 		// instance variable'lara main method'dan ulasmak istersek obje olusturup
 		// obje uzerinden erisim saglayabiliriz
 		
-		// Scanner scan= new Scanner(System.in)
 		// icinde oldugumuz class'dan bir obje ousturalim
 		InstanceVar celil=new InstanceVar();
 		
@@ -40,15 +39,13 @@ public class InstanceVar {
 		celil.method2();// method2 static olmadigi icin main method'dan direk cagrilamaz
 		
 	}
-	
+
 	
 	public static void staticMethod() {
 		// System.out.println(notFen); // instance variable'lara static method'lardan direk ulasilamaz
-		
-		
 	}
-	
-	
+
+
 	public void method2() {
 		System.out.println("method2'deki notfen : "  + notFen); // BU method static olmadigi icin instance variable'lara ulasabilir
 		// instance variable olusturulurken deger atanmasa da olur

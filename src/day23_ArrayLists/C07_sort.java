@@ -19,7 +19,7 @@ public class C07_sort {
         List ile gelen sort method'unda siralama
         ozelligini girmek gerekiyor, bunun yerine collections class'indan
         sort method'unu kullaniyoruz. Bu method listemizi natural
-        order'C01_I gore siralar.
+        order'a gore siralar.
          */
     }
 }

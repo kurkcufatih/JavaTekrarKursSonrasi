@@ -28,6 +28,7 @@ public class C03_Iterator {
 		System.out.println(ite1.next()); // 1
 		
 		ite1.remove(); // son dondurdugu elemnti siler
+		System.out.println(ite1); //[5, 3, 7, 9, 8, 2]
 		
 		 // System.out.println(ite1.remove());
 		// ite1.remove();

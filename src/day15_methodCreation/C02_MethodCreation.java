@@ -10,8 +10,8 @@ public class C02_MethodCreation {
 		 Kullanici 2,3 veya 4 degerini girerse, 
 		 kullanicidan bu sayilari girmesini isteyin 
 		 ve sayilarin toplamini yazdirin. 
-		 Kullanici toplamak istedigi sayi adedini 4’den buyuk girerse 
-		 “Cok sayi girdiniz, ben toplayamam” yazdirin.
+		 Kullanici toplamak istedigi sayi adedini 4ï¿½den buyuk girerse 
+		 ï¿½Cok sayi girdiniz, ben toplayamamï¿½ yazdirin.
 
 		 */
 		
@@ -82,3 +82,4 @@ public class C02_MethodCreation {
 	}
 
 }
+

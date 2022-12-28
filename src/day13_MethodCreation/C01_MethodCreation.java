@@ -6,7 +6,7 @@ public class C01_MethodCreation {
         //sonucunu yazdiran bir method olusturun.
         int input1 = 10;
         int input2 = 20;
-        //methof dort adimda olusturulur.
+        //method dort adimda olusturulur.
         //1.adim method call
         //2.adim argument eklenmesi gerekiyorsa ekleyelim
         //eger metod'un return type'i void'den farkli olacaksa

@@ -13,7 +13,8 @@ public class C10_split {
      */
     public static void main(String[] args) {
         String str="Java ne kadar guzel";
-      //  str.split(" "); // bu bana string bir array donecek, nasil gorebilirim? bir atama veya sout yapmam gerekiyor.
+      //  str.split(" "); // bu bana string bir array donecek, nasil gorebilirim?
+        //  bir atama veya sout yapmam gerekiyor.
 
         String[]kelimeler=str.split(" ");
         System.out.println(Arrays.toString(kelimeler));

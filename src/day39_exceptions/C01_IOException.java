@@ -2,8 +2,10 @@ package day39_exceptions;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class C01_IOException {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         /*
           Java'dan bigisayarimizdaki bir dosyaya erismek istiyorsak
           FileInputStream Class'indan yardim aliriz.

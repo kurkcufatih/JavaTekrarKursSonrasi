@@ -14,6 +14,6 @@ public class TasitRunner {
         Tasit tst1=new Tasit();
         tst1.setTasitTuru("TIR");
         tst1.getTasitTuru();
-        System.out.println(tst1.getTasitTuru());
+        System.out.println(tst1.getTasitTuru()); //TIR
     }
 }

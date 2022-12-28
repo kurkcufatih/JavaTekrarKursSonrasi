@@ -38,5 +38,7 @@ public class C02_CollectionsDataTuru {
         set1.add(5);
         set1.add(true);
         set1.add('5');
+        System.out.println(set1); //[5, 5, true]
+
     }
 }

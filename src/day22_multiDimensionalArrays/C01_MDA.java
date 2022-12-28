@@ -27,10 +27,11 @@ public class C01_MDA {
          */
 
         System.out.println(sayilar[0]); //[I@7699a589 -> array'i direk yazdiramayiz
-        System.out.println(Arrays.toString(sayilar[0]));
+        System.out.println(Arrays.toString(sayilar[0])); //[1, 2, 3, 4, 5]
         System.out.println(sayilar[0][1]); //sifirinci inner arayin (index ile) birinci array'i // 2 yazdirir
         System.out.println(sayilar[1][0]); //ikinci inner arrayin 0'inci idexi //3 yazdirir
-        System.out.println(Arrays.toString(sayilar)); //tum arrayi yazdirirsak inner arraylerin referanslarini verir sadece //[[I@7699a589, [I@58372a00]
+        System.out.println(Arrays.toString(sayilar)); //tum arrayi yazdirirsak inner arraylerin referanslarini verir sadece
+        // [[I@7699a589, [I@58372a00]
         System.out.println(Arrays.deepToString(sayilar)); // deeptoString dedigimizde tum arrayleri verir -> [[1, 2, 3, 4, 5], [3, 4]]
  /*
  Array'i iki sekilde declare edebiliyorduk,

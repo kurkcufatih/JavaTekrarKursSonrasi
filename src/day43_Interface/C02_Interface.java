@@ -10,7 +10,7 @@ public interface C02_Interface {
 	  
 	  // interface'de body'si olan bir method yazmak isterseniz
 	  // Java size 2 alternatif sunar
-	  // 1- method'un basina "default" keywor yazabilirsiniz
+	  // 1- method'un basina "default" keyword yazabilirsiniz
 	  //    ancak burada yazilan default access modifier degil, Javanin interface icin ozel kabul ettigi bir keyword'dur
 	  
 	  public default  void kaporta() {

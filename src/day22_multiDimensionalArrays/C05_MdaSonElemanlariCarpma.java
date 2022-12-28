@@ -3,7 +3,7 @@ package day22_multiDimensionalArrays;
 public class C05_MdaSonElemanlariCarpma {
 
     /* Asagidaki multi dimensional array’in ic array’lerindeki
-   son elemanlarin carpimini  ekrana yazdiran bir program yaziniz
+   son elemanlarin carpimini ekrana yazdiran bir program yaziniz
    { {1,2,3}, {4,5}, {6} }
     */
 

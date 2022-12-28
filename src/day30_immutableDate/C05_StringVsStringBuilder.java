@@ -14,14 +14,19 @@ public class C05_StringVsStringBuilder {
          */
         LocalTime baslangic=LocalTime.now();
 
-        String str="Ahhhh Java";
+        StringBuilder str= new StringBuilder("Ahhhh Java");
         for (int i = 0; i <10000 ; i++) {
-            str+=".";
+            str.append(".");
 
         }LocalTime bitis=LocalTime.now();
         System.out.println(baslangic);
         System.out.println(bitis);
 
         System.out.println("String zaman : " + (bitis.getNano()-baslangic.getNano())); //String zaman : 8995500
+
+            //Stringte sonuc :  36980300
+            //StringBuilderda sonuc: 4996400
+
+            //String daha hizli cikti
     }
 }

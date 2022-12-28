@@ -2,7 +2,7 @@ package day42_AbstractClasses;
 
 public class AbsUstabasi extends AbsIsci{
 	
-	// concrete bir child class parent'i olan abstract class'lardaki tum abstract method'lari implement etmelidir
+	// concrete bir child class, parent'i olan abstract class'lardaki tum abstract method'lari implement etmelidir
 	// ama parent'i olan abstract class'lardaki concrete method'lari implement etmek zorunda degildir
 	public static void main(String[] args) {
 		AbsUstabasi ust1=new AbsUstabasi();

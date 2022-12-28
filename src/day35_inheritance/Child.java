@@ -41,7 +41,7 @@ public class Child extends BParent {
         extends keywordu olmayan class'C01_I kadar gider
         ve oradan baslayarak tum constructorlaro asagi dogru calisir.
 
-        **Static methodlar veya variable'lar inherit edilemezler**
+
 
          */
 

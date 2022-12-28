@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class C05_ArrayeElementEkleme {
     public static void main(String[] args) {
-/*Soru 5- Verilen bir array’e
-yeni bir element ekleyen method olusturun
- */
+
+    /*
+    Soru 5- Verilen bir array’e
+    yeni bir element ekleyen method olusturun
+    */
 
     String[] sinifListesi = {"Ali Can", "Nida Yucedal", "Musa Yaman"};
     String eklenecekIsim = "Murat Babayigit";

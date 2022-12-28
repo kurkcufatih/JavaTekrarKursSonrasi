@@ -8,7 +8,7 @@ public class C01_Variables {
         int  not2   =   70;
         // variable    deger//
         //java once degeri hesaplar sonra assign islemini yapar//
-        // not2'yi 80 yapalim
+        // not2'yi 90 yapalim
         not2=90;
 
         // yeni bir int variable olusturalim degeri ilk iki variablein ortalamasi olsun//

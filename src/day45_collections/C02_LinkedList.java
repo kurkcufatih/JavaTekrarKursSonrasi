@@ -1,4 +1,4 @@
-package day45_Collections;
+package day45_collections;
 
 import java.util.Deque;
 import java.util.LinkedList;
@@ -26,13 +26,15 @@ public class C02_LinkedList {
 		ll2.add(5);
 		ll2.add(7);	
 		ll2.clear();  // Data turu Queue secilince Queue interface'inden gelen method'lari kullanabildik
+		System.out.println(ll2); //[]
 		
 		
 		Deque <Integer> ll3 = new LinkedList<>();
 		
 		ll3.add(5);
 		ll3.add(7);	
-		ll3.addLast(20);  // 
+		ll3.addLast(20);
+		System.out.println(ll3); //[5, 7, 20]
 		
 
 	}

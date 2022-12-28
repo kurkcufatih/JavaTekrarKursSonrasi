@@ -50,7 +50,7 @@ public class C03 {
 				
 				System.out.println("obje3'den sonra obje1'in y :" + C02.y);//40
 				System.out.println("obje3'den sonra obje2'in y :" + C02.y);//40
-				System.out.println("obje3'den sonra obje3'in y :" + C02.y);//240
+				System.out.println("obje3'den sonra obje3'in y :" + C02.y);//40
 
 	}
 

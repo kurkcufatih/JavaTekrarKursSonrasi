@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class C02_ListIterator {
-   // Soru 4) Bir listedeki elementleri iterator kullanarak sondan basa dogru yazdirin
+   // Soru 4) Bir listedeki elementleri iterator kullanarak
+   // sondan basa dogru yazdirin
    public static void main(String[] args) {
        List<Integer> liste = new ArrayList<>();
        liste.add(2);

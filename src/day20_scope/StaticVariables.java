@@ -27,13 +27,13 @@ public class StaticVariables {
 	}
 	
 	public static void staticMethod() {
-		// static variable'lara main method'dan direk ulasilabilir mi ? EVET
+		// static variable'lara static method'dan direk ulasilabilir mi ? EVET
 		no++;
 		System.out.println("static method'da sayi : " + no);
 	}
 	
 	public void staticOlmayanMethod() {
-		// static variable'lara main method'dan direk ulasilabilir mi ? EVET
+		// static variable'lara static olmayan method'dan direk ulasilabilir mi ? EVET
 		// static variable'lara static olan veya olmayan tum method'lardan ulasilabilir
 		// bu yuzden static variable'lara CLASS VARIABLE denir
 		no++;

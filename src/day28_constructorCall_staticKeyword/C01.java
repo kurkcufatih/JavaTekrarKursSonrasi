@@ -9,7 +9,7 @@ public class C01 {
 
 	C01() {
 		x += 1;
-		System.out.println("-x" + x);
+		System.out.println("-x" + x); //-x4
 	}
 
 	C01(int i) {

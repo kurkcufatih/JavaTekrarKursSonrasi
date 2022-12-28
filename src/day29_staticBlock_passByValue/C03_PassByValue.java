@@ -18,7 +18,7 @@ public class C03_PassByValue {
 		
 		
 		
-		System.out.println("method'dan sonra main method'daki fiyat : " + fiyat); // 100
+		System.out.println("method'dan sonra main method'daki fiyat : " + fiyat); // 90
 	}
 
 	private static int indirimYap25(int fiyat) {
